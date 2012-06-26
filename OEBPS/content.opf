@@ -1,0 +1,20 @@
+﻿<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="issue" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Aibu</dc:title>
+    <dc:creator opf:role="aut">Kajii Motojirou</dc:creator>
+    <dc:publisher>Aozora Bunko</dc:publisher>
+    <dc:date opf:event="publication">1930-06</dc:date>
+    <dc:language>ja</dc:language>
+    <dc:identifier id="issue" opf:scheme="IRD">ja</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Section1" href="Text/Section1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section2" href="Text/Section2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="default.css" href="Styles/default.css" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Section1"/>
+    <itemref idref="Section2"/>
+  </spine>
+</package>
