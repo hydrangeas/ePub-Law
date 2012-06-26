@@ -1,6 +1,52 @@
+@font-face {
+  font-family: 'IPAGothic';
+  src: url(../Fonts/ipag.ttf);
+}
+@font-face {
+  font-family: 'IPAPGothic';
+  src: url(../Fonts/ipagp.ttf);
+}
+@font-face {
+  font-family: 'IPAMincho';
+  src: url(../Fonts/ipam.ttf);
+}
+@font-face {
+  font-family: 'IPAPMincho';
+  src: url(../Fonts/ipamp.ttf);
+}
+
+
 body { margin: 8% 10%; }
-div, h1, h2 { line-height: 150%; }
-ruby { line-height: 100%; }
-rt { line-height: 50%; }
-span.notes {font-size: smaller}
-img.gaiji { width: 1em; height: 1em; align: top; }
+h1, h2 { line-height: 150%; }
+
+ul,
+ol{
+  list-style-type: none;
+}
+
+/**
+ * 任意の値から開始する
+ * ref: http://asamuzak.jp/html/51
+ */
+  ol.count-from-2 {
+    counter-reset: item;
+}
+ol.count-from-2 > li {
+  display: block;
+}
+ol.count-from-2 > li:before {
+  content: counters(item, '.') ' ';
+  counter-increment: item;
+}
+ol.count-from-2 {
+  list-style-type: decimal;
+  counter-reset: item 1;
+  padding: 0px;
+}
+
+/**
+ * リストタイプを漢数字にする
+ */
+  .kansuji {
+    list-style-type: cjk-ideographic;
+}

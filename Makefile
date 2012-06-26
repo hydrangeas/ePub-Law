@@ -15,7 +15,7 @@ allfiles=*
 
 # Make Commands
 
-all: ${ePub}
+all: clean ${ePub}
 
 ${ePub}:
 	mkdir -p ${DSTDIR}

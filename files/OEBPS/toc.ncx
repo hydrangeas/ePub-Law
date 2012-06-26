@@ -2,24 +2,56 @@
 <!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
-    <meta name="dtb:uid" content="hogehoge"/>
-    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:uid" content="law"/>
+    <meta name="dtb:depth" content="2"/>
   </head>
   <docTitle>
     <text>愛撫</text>
   </docTitle>
   <navMap>
-    <navPoint id="Section1" playOrder="1">
+    <navPoint id="H18HO120" playOrder="1">
       <navLabel>
-        <text>Section1</text>
+        <text>教育基本法</text>
       </navLabel>
-      <content src="Text/Section1.xhtml"/>
-    </navPoint>
-    <navPoint id="Section2" playOrder="2">
-      <navLabel>
-        <text>Section2</text>
-      </navLabel>
-      <content src="Text/Section2.xhtml"/>
+      <content src="Text/H18HO120/Section00.xhtml"/>
+
+      <navPoint id="H18HO120-00" playOrder="1">
+        <navLabel>
+          <text>前文</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section00.xhtml"/>
+      </navPoint>
+      <navPoint id="H18HO120-01" playOrder="2">
+        <navLabel>
+          <text>第一章　教育の目的及び理念</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section01.xhtml"/>
+      </navPoint>
+      <navPoint id="H18HO120-02" playOrder="3">
+        <navLabel>
+          <text>第二章　教育の実施に関する基本</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section02.xhtml"/>
+      </navPoint>
+      <navPoint id="H18HO120-03" playOrder="4">
+        <navLabel>
+          <text>第三章　教育行政</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section03.xhtml"/>
+      </navPoint>
+      <navPoint id="H18HO120-04" playOrder="5">
+        <navLabel>
+          <text>第四章　法令の制定</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section04.xhtml"/>
+      </navPoint>
+      <navPoint id="H18HO120-99" playOrder="6">
+        <navLabel>
+          <text>附則</text>
+        </navLabel>
+        <content src="Text/H18HO120/Section99.xhtml"/>
+      </navPoint>
+
     </navPoint>
   </navMap>
 </ncx>
