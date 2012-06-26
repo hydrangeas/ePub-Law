@@ -1,18 +1,23 @@
 @font-face {
-  font-family: 'IPAGothic';
+  font-family: "IPAGothic";
   src: url(../Fonts/ipag.ttf);
 }
 @font-face {
-  font-family: 'IPAPGothic';
+  font-family: "IPAPGothic";
   src: url(../Fonts/ipagp.ttf);
 }
 @font-face {
-  font-family: 'IPAMincho';
+  font-family: "IPAMincho";
   src: url(../Fonts/ipam.ttf);
 }
 @font-face {
-  font-family: 'IPAPMincho';
+  font-family: "IPAPMincho";
   src: url(../Fonts/ipamp.ttf);
+}
+
+* {
+  font-family: "IPAGothic";
+  line-height: 1.5em;
 }
 
 
@@ -22,6 +27,11 @@ h1, h2 { line-height: 150%; }
 ul,
 ol{
   list-style-type: none;
+  margin: auto;
+}
+
+.article {
+  margin-bottom: 1em;
 }
 
 /**
